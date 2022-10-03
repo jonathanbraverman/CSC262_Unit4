@@ -12,7 +12,7 @@ function add2( n1:number, n2: number ):number{
     return sum
 }
 
-// // solution with ana nonymous function
+// // solution with an anonymous function
 let add3 = function( n1:number, n2:number ){
     console.log( "Adding 2 numbers" )
     console.log( n1+n2 )

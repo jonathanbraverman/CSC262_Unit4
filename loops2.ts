@@ -1,15 +1,13 @@
-var count:number = 0;
+    let lineStr: string[] = ["a","b","c","d","e","f","g","h","i","j"]
 
-for(let r = 1;r <= 10;r++) 
-{   
-    let lineStr: string = ""
-    for(let c = 1; c <= 10; c++)
-    {
-        let product1 = r*c
-        lineStr = lineStr + "\t"
-        //if(product1 == 20)
-        //    //continue  // break
-        lineStr = lineStr + (r * c)
-    }
     console.log(lineStr)
-}
+
+    for(let c = 0; c < 10; c++)
+    {
+        //if(lineStr[c] == 'e')
+        //    continue  break   
+        let mychar : string = lineStr[c]
+        lineStr[c] = mychar.toUpperCase()
+    }
+    
+    console.log(lineStr)
