@@ -1,7 +1,7 @@
 var num:number = 0
 var count:number = 0;
 
-var example: number = 1;
+var example: number = 2;
 
 switch(example)
 {
@@ -18,8 +18,9 @@ switch(example)
         break;
     
     case 2: // Changing the input to the loop as data
-        for(num=0; num < 20;num = num + 1) 
+        for(num=10; num > 0; num = num - 1 ) // 
         {
+            console.log(num)
             console.log(num * num)  // print out the squared value
             count = count + 1;  // count++
         }

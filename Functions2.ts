@@ -9,12 +9,12 @@ let myAdd = function( n1:number, n2:number ){
     return n1+n2
   }
 
-  let myAdd77 = function FunctionName( n1:number, n2:number ){
+let myAdd77 = function FunctionName( n1:number, n2:number ){
     console.log(myAdd77.caller)
     console.log( "Adding 2 numbers" )
     console.log( n1+n2 )
     return n1+n2
-  }
+}
 
 
 function test()

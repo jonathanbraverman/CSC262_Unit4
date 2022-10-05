@@ -1,5 +1,5 @@
 var count:number = 0;
-var MatrixSize : number = 5;
+var MatrixSize : number = 3;
 let r = 1               // Initialization statement for outer loop
 while(r <= MatrixSize)  // Condition
 {   

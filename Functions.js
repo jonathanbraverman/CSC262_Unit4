@@ -1,3 +1,4 @@
+console.log("\nBasic Function Example");
 var mynumber;
 function addup(x, y) {
     var z = x + y;
@@ -5,6 +6,8 @@ function addup(x, y) {
 }
 mynumber = addup(1, 2);
 console.log(mynumber);
+console.log("\n\n\n");
+console.log("\nOptional Parameter Example");
 function greet(name, title) {
     if (title == undefined)
         title = '';
@@ -12,19 +15,13 @@ function greet(name, title) {
 }
 greet("Tony Stark");
 greet("Tony Stark", "Mr.");
+console.log("\n\n\n");
+console.log("\nDefault Arguments Example");
 function greet2(name, title) {
-    if (title === void 0) { title = "The Amazing"; }
+    if (title === void 0) { title = "The Amazing "; }
     console.log("Hello, " + title + name + "!!");
 }
-greet("Peter Parker", "Mr.");
-greet("Spider Man");
-// // solution with ananonymous function
-var myAdd = function (n1, n2) {
-    console.log("Adding 2 numbers");
-    console.log(n1 + n2);
-    return n1 + n2;
-};
-//let mynumber = function (x : number, y : number) : number
-var myAdd2 = function (x, y) {
-    return x + y;
-};
+greet2("Peter Parker", "Mr.");
+greet2("Spider Man");
+//let mystring : string;
+//mystring = addup(1,2);
